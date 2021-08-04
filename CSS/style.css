@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Montserrat:wght@100;200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,200&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font family
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3800px;
+}
+
+body,
+p,
+a,
+input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    font-weight: 400;
+}
+
+/* content */
+.btn-content-live {
+    border: 1px solid #530dc4;
+    color: #530dc4;
+    background: transparent;
+    transition: .3s;
+}
+
+.btn-content-live:hover {
+    color: #fafafa;
+    background: #530dc4;
+}
+
+.btn-content {
+    transition: .3s ease;
+}
+
+.btn-content:hover {
+    background-color: #5e17d1 !important;
+}
+
+/* card */
+.col-card {
+    width: 340px;
+    transition: .4s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.col-card:hover {
+    transform: translateY(-5px);
+}
+
+.col-card img {
+    width: 70px;
+}
+
+/* meet our team */
+.card-team img {
+    width: 120px;
+}
+
+.social-img img {
+    width: 22px;
+    transition: .4s ease;
+}
+
+.social-img :hover {
+    transform: translateY(-2px);
+}
+
+.card-team:hover {
+    background: #fafafa;
+}
+
+/* features */
+.features {
+    margin: 100px 0 50px 0;
+    padding: 100px 0;
+    background: #530dc4;
+}
+
+.btn-features {
+    transition: .4s ease;
+    background: #fff;
+}
+
+.btn-features:hover {
+    background: #f1f1f1;
+}
+
+
+/* footer */
+footer {
+    padding: 70px 0 50px 0;
+}
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 576px) {
+    .navbar {
+        box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .col-card {
+        width: 320px;
+    }
+
+    .card-team {
+        width: 180px !important;
+    }
+
+    .card-team img {
+        width: 80px;
+    }
+
+    .social-img img {
+        width: 20px;
+        transition: .4s ease;
+    }
+
+    .sponsored-img {
+        width: 80px;
+    }
+
+    .features {
+        margin: 70px 0;
+        padding: 60px 0;
+    }
+
+    footer {
+        padding: 0 0 20px 0;
+    }
+}
